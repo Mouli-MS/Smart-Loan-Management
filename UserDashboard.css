@@ -1,0 +1,85 @@
+/* src/pages/UserDashboard.css */
+
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #87CEFA; /* Light Blue */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px; /* Increased margin to provide more space between navbar and content */
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-item {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.nav-item:hover {
+    background-color: #575757;
+}
+
+.logout-button {
+    background-color: #ff5c5c;
+}
+
+.logout-button:hover {
+    background-color: #e04d4d;
+}
+
+.dashboard-content {
+    text-align: center;
+    padding-top: 40px; /* Increased padding-top for more space between navbar and welcome */
+}
+
+.dashboard-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.dashboard-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.apply-loan-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.apply-loan-button:hover {
+    background-color: #45a049;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #333;
+}
